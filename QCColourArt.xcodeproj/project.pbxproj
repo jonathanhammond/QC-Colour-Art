@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839A7FCA17148E1300D53EB5 /* NSImage+bitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A7FC917148E1300D53EB5 /* NSImage+bitmapRep.m */; };
+		83A25AB7171426E20095C405 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A25AB6171426E20095C405 /* Cocoa.framework */; };
+		83A25AB9171426E20095C405 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A25AB8171426E20095C405 /* Quartz.framework */; };
+		83A25AC3171426E20095C405 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A25AC1171426E20095C405 /* InfoPlist.strings */; };
+		83A25AC6171426E20095C405 /* QCColourArtPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A25AC5171426E20095C405 /* QCColourArtPlugIn.m */; };
+		83A25ACF171427070095C405 /* ColourArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A25ACE171427070095C405 /* ColourArt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839A7FC817148E1300D53EB5 /* NSImage+bitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+bitmapRep.h"; sourceTree = "<group>"; };
+		839A7FC917148E1300D53EB5 /* NSImage+bitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+bitmapRep.m"; sourceTree = "<group>"; };
+		83A25AB3171426E20095C405 /* QCColourArt.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCColourArt.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A25AB6171426E20095C405 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83A25AB8171426E20095C405 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		83A25ABB171426E20095C405 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		83A25ABC171426E20095C405 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		83A25ABD171426E20095C405 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83A25AC0171426E20095C405 /* QCColourArt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QCColourArt-Info.plist"; sourceTree = "<group>"; };
+		83A25AC2171426E20095C405 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A25AC4171426E20095C405 /* QCColourArtPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCColourArtPlugIn.h; sourceTree = "<group>"; };
+		83A25AC5171426E20095C405 /* QCColourArtPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCColourArtPlugIn.m; sourceTree = "<group>"; };
+		83A25AC7171426E20095C405 /* QCColourArt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCColourArt-Prefix.pch"; sourceTree = "<group>"; };
+		83A25ACD171427070095C405 /* ColourArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourArt.h; sourceTree = "<group>"; };
+		83A25ACE171427070095C405 /* ColourArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourArt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A25AAF171426E20095C405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A25AB7171426E20095C405 /* Cocoa.framework in Frameworks */,
+				83A25AB9171426E20095C405 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A25AA9171426E20095C405 = {
+			isa = PBXGroup;
+			children = (
+				83A25ABE171426E20095C405 /* QCColourArt */,
+				83A25AB5171426E20095C405 /* Frameworks */,
+				83A25AB4171426E20095C405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A25AB4171426E20095C405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A25AB3171426E20095C405 /* QCColourArt.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A25AB5171426E20095C405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A25AB6171426E20095C405 /* Cocoa.framework */,
+				83A25AB8171426E20095C405 /* Quartz.framework */,
+				83A25ABA171426E20095C405 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A25ABA171426E20095C405 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A25ABB171426E20095C405 /* AppKit.framework */,
+				83A25ABC171426E20095C405 /* CoreData.framework */,
+				83A25ABD171426E20095C405 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		83A25ABE171426E20095C405 /* QCColourArt */ = {
+			isa = PBXGroup;
+			children = (
+				83A25AC4171426E20095C405 /* QCColourArtPlugIn.h */,
+				83A25AC5171426E20095C405 /* QCColourArtPlugIn.m */,
+				83A25ABF171426E20095C405 /* Supporting Files */,
+				83A25ACD171427070095C405 /* ColourArt.h */,
+				83A25ACE171427070095C405 /* ColourArt.m */,
+				839A7FC817148E1300D53EB5 /* NSImage+bitmapRep.h */,
+				839A7FC917148E1300D53EB5 /* NSImage+bitmapRep.m */,
+			);
+			path = QCColourArt;
+			sourceTree = "<group>";
+		};
+		83A25ABF171426E20095C405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A25AC0171426E20095C405 /* QCColourArt-Info.plist */,
+				83A25AC1171426E20095C405 /* InfoPlist.strings */,
+				83A25AC7171426E20095C405 /* QCColourArt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A25AB2171426E20095C405 /* QCColourArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A25ACA171426E20095C405 /* Build configuration list for PBXNativeTarget "QCColourArt" */;
+			buildPhases = (
+				83A25AAE171426E20095C405 /* Sources */,
+				83A25AAF171426E20095C405 /* Frameworks */,
+				83A25AB0171426E20095C405 /* Resources */,
+				83A25AB1171426E20095C405 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCColourArt;
+			productName = QCColourArt;
+			productReference = 83A25AB3171426E20095C405 /* QCColourArt.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A25AAA171426E20095C405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Birch";
+			};
+			buildConfigurationList = 83A25AAD171426E20095C405 /* Build configuration list for PBXProject "QCColourArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83A25AA9171426E20095C405;
+			productRefGroup = 83A25AB4171426E20095C405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A25AB2171426E20095C405 /* QCColourArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A25AB0171426E20095C405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A25AC3171426E20095C405 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83A25AB1171426E20095C405 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/QCColourArt.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/QCColourArt.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A25AAE171426E20095C405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A25AC6171426E20095C405 /* QCColourArtPlugIn.m in Sources */,
+				83A25ACF171427070095C405 /* ColourArt.m in Sources */,
+				839A7FCA17148E1300D53EB5 /* NSImage+bitmapRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A25AC1171426E20095C405 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A25AC2171426E20095C405 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A25AC8171426E20095C405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		83A25AC9171426E20095C405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		83A25ACB171426E20095C405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QCColourArt/QCColourArt-Prefix.pch";
+				INFOPLIST_FILE = "QCColourArt/QCColourArt-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		83A25ACC171426E20095C405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QCColourArt/QCColourArt-Prefix.pch";
+				INFOPLIST_FILE = "QCColourArt/QCColourArt-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A25AAD171426E20095C405 /* Build configuration list for PBXProject "QCColourArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A25AC8171426E20095C405 /* Debug */,
+				83A25AC9171426E20095C405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A25ACA171426E20095C405 /* Build configuration list for PBXNativeTarget "QCColourArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A25ACB171426E20095C405 /* Debug */,
+				83A25ACC171426E20095C405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A25AAA171426E20095C405 /* Project object */;
+}
