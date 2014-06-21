@@ -10,3 +10,7 @@ Video example
 https://vimeo.com/97938128
 
 Enjoy
+
+
+
+![screenshot](http://justaddmusicmedia.com/wp-content/uploads/2014/06/ColorArtThumbWeb.jpg)
