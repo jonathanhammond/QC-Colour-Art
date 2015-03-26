@@ -12,4 +12,7 @@ Enjoy
 
 
 
-![screenshot](http://justaddmusicmedia.com/wp-content/uploads/2014/06/ColorArtThumbWeb.jpg)
+![screenshot](https://github.com/jonathanhammond/Colour-Art/blob/master/Images/CoverArtTitle.jpg)
+
+![screenshot](https://github.com/jonathanhammond/Colour-Art/blob/master/Images/OrigamiScreen.jpg)
+
