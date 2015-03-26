@@ -16,3 +16,9 @@ Enjoy
 
 ![screenshot](https://github.com/jonathanhammond/Colour-Art/blob/master/Images/OrigamiScreen.jpg)
 
+![screenshot](https://github.com/jonathanhammond/Colour-Art/blob/master/Images/Danger.png)
+![screenshot](https://github.com/jonathanhammond/Colour-Art/blob/master/Images/FB.png)
+![screenshot](https://github.com/jonathanhammond/Colour-Art/blob/master/Images/beyonce.png)
+
+
+
