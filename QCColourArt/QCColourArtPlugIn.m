@@ -2,8 +2,8 @@
 //  QCColourArtPlugIn.m
 //  QCColourArt
 //
-//  Created by Chris Birch on 09/04/2013.
-//  Copyright (c) 2013 Chris Birch. All rights reserved.
+//  Created by Jonathan Hammond on 09/04/2013.
+//  Copyright (c) 2015 Jonathan Hammond. All rights reserved.
 //
 
 // It's highly recommended to use CGL macros instead of changing the current context for plug-ins that perform OpenGL rendering

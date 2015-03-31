@@ -2,8 +2,8 @@
 //  QCColourArtPlugIn.h
 //  QCColourArt
 //
-//  Created by Chris Birch on 09/04/2013.
-//  Copyright (c) 2013 Chris Birch. All rights reserved.
+//  Created by Jonathan Hammond on 09/04/2013.
+//  Copyright (c) 2015 Jonathan Hammond. All rights reserved.
 //
 
 #import <Quartz/Quartz.h>

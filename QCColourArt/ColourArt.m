@@ -2,8 +2,8 @@
 //  ColourArt.m
 //  QCColourArt
 //
-//  Created by Chris Birch on 09/04/2013.
-//  Copyright (c) 2013 Chris Birch. All rights reserved.
+//  Created by Jonathan Hammond on 09/04/2013.
+//  Copyright (c) 2013 Jonathan Hammond. All rights reserved.
 //
 
 #import "ColourArt.h"
