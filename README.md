@@ -13,6 +13,8 @@ Copy the QCColourArt.plugin found in the Release folder to your /Library/Graphic
 Video example 
 https://vimeo.com/97938128
 
+Created by Chris Birth for Just Add Music Media
+
 Enjoy
 
 
